@@ -3,8 +3,9 @@
     <application>myApplicationId</application>
     <version>1</version>
     <threadsafe>true</threadsafe>
-
+    <url-stream-handler>urlfetch</url-stream-handler>
     <system-properties>
+        <property name="appengine.file.encoding" value="US-ASCII"/>
         <property name="java.util.logging.config.file" value="WEB-INF/logging.properties"/>
     </system-properties>
 </appengine-web-app>
